@@ -22,6 +22,9 @@ function game_page(){
           document.getElementById('container').style.zIndex = "10";
           //   document.getElementById(blank).style.visibility = "hidden";
         },500);
+        setTimeout(function(){
+            alert("Click on the box to generate random numbers");
+        },1000);
   }
 
 function changeColor() { 
